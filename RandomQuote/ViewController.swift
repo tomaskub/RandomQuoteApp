@@ -9,11 +9,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var quoteLabel: UILabel!
+    @IBOutlet weak var refreshButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func refreshButtonTapped(_ sender: Any) {
+    }
+    
 }
 
