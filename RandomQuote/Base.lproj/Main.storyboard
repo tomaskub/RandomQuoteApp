@@ -17,16 +17,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="3dK-p6-h5Z">
-                                <rect key="frame" x="24" y="392" width="345" height="68.333333333333314"/>
+                                <rect key="frame" x="24" y="398.66666666666669" width="345" height="54.666666666666686"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bgq-tb-wPS">
-                                        <rect key="frame" x="0.0" y="0.0" width="345" height="34"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bgq-tb-wPS">
+                                        <rect key="frame" x="0.0" y="0.0" width="345" height="20.333333333333332"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yy8-gS-Xv2">
-                                        <rect key="frame" x="0.0" y="34" width="345" height="34.333333333333343"/>
+                                        <rect key="frame" x="0.0" y="20.333333333333318" width="345" height="34.333333333333343"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="34.329999999999998" id="7t8-Qf-12a"/>
                                         </constraints>
@@ -37,9 +37,6 @@
                                         </connections>
                                     </button>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstItem="Yy8-gS-Xv2" firstAttribute="top" secondItem="3dK-p6-h5Z" secondAttribute="top" constant="34" id="MNV-Eh-ZtH"/>
-                                </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
